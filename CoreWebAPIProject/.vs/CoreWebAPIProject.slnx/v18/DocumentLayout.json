@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:models\\saledetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\models\\salemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:models\\salemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:datacontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\migrations\\20251204072523_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:migrations\\20251204072523_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|d:\\1289110(don\u0027t delete anything)\\mvc core projects\\core web api project\\corewebapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A96C050-595F-E91B-DF6F-7070EA93A2C8}|CoreWebAPIProject.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251204072523_InitialCreate.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Migrations\\20251204072523_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251204072523_InitialCreate.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Migrations\\20251204072523_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251204072523_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:25:23.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SaleController.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "Controllers\\SaleController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:02:22.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:55:13.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SaleDetail.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Models\\SaleDetail.cs",
+              "RelativeDocumentMoniker": "Models\\SaleDetail.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Models\\SaleDetail.cs",
+              "RelativeToolTip": "Models\\SaleDetail.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:33:01.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleMaster.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Models\\SaleMaster.cs",
+              "RelativeDocumentMoniker": "Models\\SaleMaster.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Models\\SaleMaster.cs",
+              "RelativeToolTip": "Models\\SaleMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:32:30.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\DataContext\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "DataContext\\AppDBContext.cs",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\DataContext\\AppDBContext.cs",
+              "RelativeToolTip": "DataContext\\AppDBContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T06:29:18.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T05:06:11.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\1289110(Don\u0027t Delete Anything)\\MVC core projects\\core web api project\\CoreWebAPIProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T05:00:25.199Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

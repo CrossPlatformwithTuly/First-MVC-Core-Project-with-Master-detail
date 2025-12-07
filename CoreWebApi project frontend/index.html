@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sale Entry (Master-Detail)</title>
+    <style>
+        body { font-family: Arial; width: 700px; margin: auto; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid #ddd; padding: 8px; }
+        button { padding: 8px 15px; margin-top: 10px; }
+        input { padding: 6px; width: 95%; }
+    </style>
+</head>
+
+<body>
+
+    <h2>Create Sale (Master + Details)</h2>
+
+    <!-- Master -->
+    <label>Customer Name</label><br />
+    <input type="text" id="customerName" /><br /><br />
+
+    <label>Sale Date</label><br />
+    <input type="date" id="saleDate" /><br /><br />
+
+    <!-- Detail Entry -->
+    <h3>Add Items</h3>
+
+    <label>Product</label><br />
+    <input type="text" id="product" />
+    <br />
+
+    <label>Quantity</label><br />
+    <input type="number" id="qty" />
+    <br />
+
+    <label>Unit Price</label><br />
+    <input type="number" id="price" />
+    <br />
+
+    <button onclick="addItem()">Add Item</button>
+
+    <!-- Details Table -->
+    <h3>Sale Items</h3>
+
+    <table id="itemsTable">
+        <thead>
+            <tr>
+                <th>Product</th><th>Qty</th><th>Price</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <button onclick="saveSale()">Save Sale</button>
+
+    <p id="msg"></p>
+
+    <script>
+        let items = [];
+
+        // Add item function
+        function addItem() {
+            let product = document.getElementById("product").value;
+            let qty = parseInt(document.getElementById("qty").value);
+            let price = parseFloat(document.getElementById("price").value);
+
+            if (!product || qty <= 0 || price <= 0) {
+                alert("Please enter product, qty, and price");
+                return;
+            }
+
+            let item = {
+                productName: product,
+                quantity: qty,
+                unitPrice: price
+            };
+
+            items.push(item);
+            renderItems();
+        }
+
+        // Display in table
+        function renderItems() {
+            let table = document.querySelector("#itemsTable tbody");
+            table.innerHTML = "";
+
+            items.forEach(i => {
+                table.innerHTML += `
+                <tr>
+                    <td>${i.productName}</td>
+                    <td>${i.quantity}</td>
+                    <td>${i.unitPrice}</td>
+                </tr>`;
+            });
+        }
+
+        // Save Full Sale
+        async function saveSale() {
+            let sale = {
+                customerName: document.getElementById("customerName").value,
+                saleDate: document.getElementById("saleDate").value,
+                saleDetail: items
+            };
+
+            const response = await fetch("http://localhost:5219/api/sale/create", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(sale)
+            });
+
+            if (response.ok) {
+                document.getElementById("msg").innerText = "Sale saved successfully!";
+                items = [];
+                renderItems();
+            } else {
+                document.getElementById("msg").innerText = "Error saving sale!";
+            }
+        }
+    </script>
+
+</body>
+</html>
